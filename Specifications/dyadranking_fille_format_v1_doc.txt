@@ -1,0 +1,27 @@
+Documentation of the dyad ranking file format
+=================================================
+Created by Dirk Schaefer, 2016-08-03
+Version 1.0
+
+Elements of the dyad ranking file format:
+# A dyad ranking data set can consist of three files:
+	- ranking file (mandatory)
+	- X features file (optional)
+	- Y features file (optional)
+	
+Ranking files are specified by the following properties:
+# Suffix: .dr, .drz (zipped dr).
+# Each line represents one sample.
+# A line has the following format:
+XID1:YID1,XID2:YID2, ... ,XIDMn:YIDMn
+which correspond to a dyad ranking:
+(x_1,y_1) > (x_2,y_2) > ... > (x_Mn,y_Mn)
+# A dyad is thus represented by two IDs that are joined together with the colon ":".
+# Dyads are separated by comma ",".
+
+Feature files are specified as follows:
+# Suffix: csv or zipped csv
+# Each line has the following columns
+ Feat_ID, Feat1, Feat2, ..., Featp
+ 
+ 

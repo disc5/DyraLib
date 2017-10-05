@@ -1,0 +1,37 @@
+Documentation of the dyad ranking file format
+=================================================
+Created by Dirk Schaefer, 2016-08-03
+Version 2.0
+
+Synopsis:
+Dyad ranking file format specification. This version is more in tune with the entity-relationship viewpoint of dyad ranking. Moreover, standard IO routines can be used to load dyad ranking data sets.
+
+Elements of the dyad ranking file format:
+# A dyad ranking data set consists of four files:
+	- dyads file (mandatory)
+	- ranking file with dyad orderings (mandatory)
+	- X features file (optional)
+	- Y features file (optional)
+	
+[Dyads File]
+# Suffix: .dya
+# Each line represents one dyad.
+# A line has the following format:
+Dyad_ID, X_Feat_ID, Y_Feat_ID
+
+[Rankings File]
+# Suffix: .dra
+# Each line corresponds to one sample.
+# A line has the following format:
+Dyad_ID_1, Dyad_ID_2, ..., Dyad_ID_Mn
+
+[Feature files]
+# Suffix: csv or zipped csv
+# Each line has the following columns
+ Feat_ID, Feat1, Feat2, ..., Featp
+
+Note: 
+#1 An adoption of the SVM Lite format for  the feature files is also possible to enable sparse representation of features.
+#2 If no features are available for the dyads, then X_Feat_ID and Y_Feat_ID in the dyads file are treated as Identifiers of the first and second dyad members.
+ 
+ 
