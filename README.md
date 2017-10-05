@@ -1,5 +1,5 @@
 # DyraLib - Dyad Ranking Software
-**Dyad Ranking** is a problem setting within preference learning. It is about learning from and the prediction of preferences on feature vectors pairs (called dyads). 
+**Dyad Ranking** is a problem setting within preference learning. It is about learning from and the prediction of preferences on feature vector pairs (called dyads). 
 
 Implementations to the following dyad ranking models are provided: BilinPL, PLNet and LFPL.
 Prototypical implementations with demoscripts and sample data are given in Matlab and Java code. 
