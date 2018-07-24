@@ -7,7 +7,7 @@ Prototypical implementations with demoscripts and sample data are given in Matla
 ## References
 * D. Schäfer and E. Hüllermeier, 'Dyad ranking using Plackett–Luce models based on joint feature representations', MachLearn (2018)
 * D. Schäfer, 'A Latent-Feature Plackett-Luce Model for Dyad Ranking Completion', in Workshop on Knowledge Discovery, Data Mining and Machine Learning (KDML), Rostock, Germany, (2017)
-* D. Schäfer and E. Hüllermeier, ‘Plackett-Luce networks for dyad ranking’, in Workshop LWDA, “Lernen, Wissen, Daten, Analysen”, Potsdam, Germany, (2016).
+* D. Schäfer and E. Hüllermeier, ‘Plackett-Luce networks for dyad ranking’, in Workshop LWDA, “Lernen, Wissen, Daten, Analysen”, Potsdam, Germany, (2016)
 * D. Schäfer and E. Hüllermeier, 'Preference-Based Meta-Learning using Dyad Ranking: Recommending Algorithms in Cold-Start Situations', MetaSel@PKDD/ECML Workshop, Porto, Portugal, (2015)
 * D. Schäfer and E. Hüllermeier, 'Dyad Ranking using a Bilinear Plackett-Luce Model', in 
 Proceedings ECML/PKDD--2015, European Conference on Machine Learning and Knowledge Discovery in Databases, Porto, Portugal, (2015)
